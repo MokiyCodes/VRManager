@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Oculus Manager")]
-[assembly: AssemblyDescription("Kill your oculus processes with ease")]
+[assembly: AssemblyTitle("VR Manager")]
+[assembly: AssemblyDescription("Kill your VR-related processes with ease")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("AstolfoDev")]
-[assembly: AssemblyProduct("Oculus Manager")]
+[assembly: AssemblyProduct("VR Manager")]
 [assembly: AssemblyCopyright("Copyright © MokiyCodes 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

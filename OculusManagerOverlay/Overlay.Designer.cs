@@ -1,4 +1,4 @@
-﻿namespace OculusManager
+﻿namespace VRManager
 {
   partial class Overlay
   {
@@ -66,7 +66,7 @@
       this.Title.Name = "Title";
       this.Title.Size = new System.Drawing.Size(349, 32);
       this.Title.TabIndex = 0;
-      this.Title.Text = "Oculus Manager";
+      this.Title.Text = "VR Manager";
       // 
       // Exit
       // 
@@ -74,7 +74,7 @@
       this.Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
       this.Exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.Exit.BorderRadius = 0;
-      this.Exit.ButtonText = "Exit Oculus Manager";
+      this.Exit.ButtonText = "Exit VR Manager";
       this.Exit.Cursor = System.Windows.Forms.Cursors.Hand;
       this.Exit.DisabledColor = System.Drawing.Color.Gray;
       this.Exit.Iconcolor = System.Drawing.Color.Transparent;
@@ -97,7 +97,7 @@
       this.Exit.selected = false;
       this.Exit.Size = new System.Drawing.Size(134, 48);
       this.Exit.TabIndex = 2;
-      this.Exit.Text = "Exit Oculus Manager";
+      this.Exit.Text = "Exit VR Manager";
       this.Exit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
       this.Exit.Textcolor = System.Drawing.Color.White;
       this.Exit.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -105,10 +105,10 @@
       // 
       // IconBox
       // 
-      this.IconBox.ErrorImage = global::OculusManager.Properties.Resources.oculus_manager_light;
-      this.IconBox.Image = global::OculusManager.Properties.Resources.oculus_manager_light_2;
+      this.IconBox.ErrorImage = global::VRManager.Properties.Resources.oculus_manager_light;
+      this.IconBox.Image = global::VRManager.Properties.Resources.oculus_manager_light_2;
       this.IconBox.ImageLocation = "";
-      this.IconBox.InitialImage = global::OculusManager.Properties.Resources.oculus_manager_light;
+      this.IconBox.InitialImage = global::VRManager.Properties.Resources.oculus_manager_light;
       this.IconBox.Location = new System.Drawing.Point(0, 13);
       this.IconBox.Name = "IconBox";
       this.IconBox.Size = new System.Drawing.Size(64, 64);
@@ -122,7 +122,7 @@
       this.Kill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
       this.Kill.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.Kill.BorderRadius = 0;
-      this.Kill.ButtonText = "Kill Oculus";
+      this.Kill.ButtonText = "Kill VR";
       this.Kill.Cursor = System.Windows.Forms.Cursors.Hand;
       this.Kill.DisabledColor = System.Drawing.Color.Gray;
       this.Kill.Iconcolor = System.Drawing.Color.Transparent;
@@ -145,7 +145,7 @@
       this.Kill.selected = false;
       this.Kill.Size = new System.Drawing.Size(134, 48);
       this.Kill.TabIndex = 1;
-      this.Kill.Text = "Kill Oculus";
+      this.Kill.Text = "Kill VR";
       this.Kill.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
       this.Kill.Textcolor = System.Drawing.Color.White;
       this.Kill.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -159,7 +159,7 @@
       this.yeet.Name = "yeet";
       this.yeet.Size = new System.Drawing.Size(343, 32);
       this.yeet.TabIndex = 4;
-      this.yeet.Text = "Manage your Oculus Processes with ease";
+      this.yeet.Text = "Manage your VR Processes with ease";
       this.yeet.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
       this.yeet.Click += new System.EventHandler(this.bunifuCustomLabel1_Click);
       // 
@@ -173,7 +173,7 @@
       this.ProcessCount.Name = "ProcessCount";
       this.ProcessCount.Size = new System.Drawing.Size(413, 25);
       this.ProcessCount.TabIndex = 5;
-      this.ProcessCount.Text = "Oculus Processes: COUNT";
+      this.ProcessCount.Text = "VR Processes: COUNT";
       this.ProcessCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
       // 
       // DragCount
@@ -226,7 +226,7 @@
       this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.MaximizeBox = false;
       this.Name = "Overlay";
-      this.Text = "OculusManager";
+      this.Text = "VRManager";
       this.TopMost = true;
       this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(44)))));
       this.Activated += new System.EventHandler(this.Overlay_Activated);

@@ -10,7 +10,7 @@ using System.Diagnostics;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace OculusManager
+namespace VRManager
 {
   public partial class Overlay : Form
   {
@@ -19,7 +19,9 @@ namespace OculusManager
       "OculusClient",
       "OVRRedir",
       "OVRServer_x64",
-      "OVRServiceLauncher"
+      "OVRServiceLauncher",
+      "VirtualDesktop.Service",
+      "VirtualDesktop.Streamer"
     };
 
     private string CountText;
